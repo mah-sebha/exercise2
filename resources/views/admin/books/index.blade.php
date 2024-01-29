@@ -51,6 +51,7 @@
         </tbody>
     </table>
 
+    {{-- Display pagination links for books list --}}
     {{ $books->links() }}
     
 @endsection

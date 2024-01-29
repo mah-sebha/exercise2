@@ -15,3 +15,5 @@ Expand the book rental library application to include functionality for users to
 ## Run Application
 
 Run `php artisan serve` or visit project `public` directory from the browser.
+
+Add some books: Management > Books > [Add new book]

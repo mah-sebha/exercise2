@@ -19,12 +19,13 @@
     <div class="row">
         @foreach ($books as $book)
         <div class="col-4 mb-4">
-            <x-book-card :book="$book" />
+            @include('books.card')
         </div>
         @endforeach
 
     </div>
 
+    {{-- Display pagination links for books list --}}
     {{ $books->links() }}
 
     <form method="POST" action="{{ route('books.rent') }}" id="rent-book-form">
