@@ -1,6 +1,6 @@
 #  Book Rental Library
 
-## Exercise 1: 
+## Exercise 2: 
 
 Expand the book rental library application to include functionality for users to view a list of books, and rent a book. This involves setting up a database, creating models and relationships, and handling form data securely.
 
